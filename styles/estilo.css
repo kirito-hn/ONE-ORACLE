@@ -286,7 +286,8 @@ body {
     margin: 0; 
 }
 .cabecalho_menu{
-   gap:2%;       
+   gap:2%; 
+ margin-left:2%;
       
 }
 }

@@ -161,7 +161,7 @@ body{
 body {
     background-size: cover; 
     padding: 0; 
-  margin-bottom:10%;
+ 
 }
 
 .cabecalho {
@@ -184,7 +184,7 @@ body {
     align-items: center;
     margin-right: auto;
     justify-content: space-around;
-    margin-bottom: 10%;
+    
 }
 
 .apresentacao2 {
@@ -288,5 +288,7 @@ body {
  margin-left:2%;
       
 }
+ .rodape{
+   position: relative;
 }
 

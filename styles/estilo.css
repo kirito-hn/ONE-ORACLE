@@ -27,9 +27,12 @@ body{
 }
 
 .cabecalho_menu{
-    margin-left: 20%;
-    margin-right: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
     gap: 5%;
+    
     
 }
 

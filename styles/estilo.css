@@ -152,43 +152,82 @@ body{
 }
 
 @media(max-width:1200px){
-.apresentacao{
-    flex-direction: column;
-    margin-bottom: 10%;
-    padding: 5%;
-    margin-left: 4%;
-    margin-top: 4%;
-    justify-content: center;   
+body {
+    background-size: cover; /* Corrigir o tamanho do plano de fundo */
+    padding: 0; /* Remover o preenchimento do corpo */
+}
 
+.cabecalho {
+    padding: 10% 0; /* Ajustar o preenchimento do cabeçalho */
 }
-.apresentacao__conteudo{
-    flex-direction: column-reverse;
-    width: auto;
-    padding: auto;
-    justify-content: center;
-}
-.apresentacao__botao{
-    flex-direction: column;
-    margin-bottom: 10%;
-    
-    margin-right: -50%;
-}
-.imagem_principal{
-    
-    margin-bottom: 1%;
-}
-.cabecalho{
-    padding: 10% ;     
 
-}
 .rodape
 {
     text-align: center;
-    
-        
+            
 }
 .cabecalho_menu{
     justify-content: center;
+    margin-left: auto;
+}
+.apresentacao {
+    width: 100%; /* Largura total */
+    margin-left: auto; 
+    align-items: center;
+    margin-right: auto;
+    justify-content: space-around;
+    
+    
+}
+.apresentacao2 {
+    width: 100%; /* Largura total */
+    margin-left: 10%; 
+    align-items: center;
+    margin-right: auto;
+    justify-content: space-around;
+    flex-direction:column-reverse;
+
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+    flex-wrap: nowrap; 
+    gap: 32px;
+    align-items:center;
+    margin-left: 20%;
+    margin-top: 3%;
+    justify-content: space-around;
+    
+}
+
+.apresentacao__conteudo_texto {
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+    flex-wrap: nowrap; 
+    gap: 32px;
+    align-items:center;
+    margin-right: 15%;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo__texto_1,
+.apresentacao__conteudo__texto_2 {
+    margin-left: 0; /* Remover margem esquerda */
+}
+
+.apresentacao__botao {
+    flex-direction: column; /* Empilhar os botões verticalmente */
+    margin: 3% 0; /* Adicionar margem superior e inferior */
+    
+}
+
+.apresentacao__botao__link {
+    width: 100%; /* Largura total */
+    margin: 0; /* Remover margem */
 }
 
 }

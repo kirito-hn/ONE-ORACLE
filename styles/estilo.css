@@ -29,11 +29,11 @@ body{
 .cabecalho_menu{
     display: flex;
     justify-content: space-around;
-    margin-left: 2%;
-    margin-right: 2%;
-    gap: 5%;
+    align-items: center;
     
-    
+    margin-right: 10%;
+       
+      
 }
 
 .cabecalho_menu_link{
@@ -81,6 +81,7 @@ body{
 .apresentacao__conteudo_texto__titulo{
     font-size: 2.25rem;
     font-family: var(--cor-primaria);
+   
 }
 
 .apresentacao__conteudo__texto_1{
@@ -119,7 +120,6 @@ body{
 
 .apresentacao__botao__link{
     box-sizing: border-box ;
-    /*background-color: black;*/
     font-family: var(--fonte-secundaria);
     gap:16px;
     color: var(--cor-secundaria);
@@ -133,7 +133,7 @@ body{
     text-decoration: none;
     display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom:20%;
 
 }
 
@@ -152,11 +152,12 @@ body{
         font-weight: 600;
         position: sticky;
         bottom: 0;
-        border-bottom: 0;
+       
                
 }
 
 @media(max-width:1200px){
+
 body {
     background-size: cover; 
     padding: 0; 
@@ -164,6 +165,7 @@ body {
 
 .cabecalho {
     padding: 10% 0; 
+    
 }
 
 .rodape
@@ -171,20 +173,22 @@ body {
     text-align: center;
             
 }
-.cabecalho_menu{
-    justify-content: center;
+
+.apresentacao {
+   
+
     margin-left: 40%;
     margin-right: 40%;
 }
+
 .apresentacao {
     width: 100%;
     margin-left: auto; 
     align-items: center;
     margin-right: auto;
     justify-content: space-around;
-    
-    
 }
+
 .apresentacao2 {
     width: 100%; 
     margin-left: 10%; 
@@ -237,5 +241,49 @@ body {
     width: 100%; 
     margin: 0; 
 }
+
+.apresentacao__conteudo {
+    display: flex;
+    justify-content:center;
+    flex-direction:column-reverse;
+    flex-wrap: nowrap; 
+    gap: 32px;
+    align-items:center;
+    margin-left: 20%;
+    margin-top: 3%;
+    justify-content: space-around;
+    gap: 20px;  
+    
+}
+
+.apresentacao__conteudo_texto {
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    flex-wrap: nowrap; 
+    gap: 32px;
+    align-items:center;
+    margin-right: 15%;
+    margin-top: 3%;
+    justify-content: space-around;
+}
+
+.apresentacao__conteudo__texto_1,
+.apresentacao__conteudo__texto_2 {
+    margin-left: 0; 
+}
+
+.apresentacao__botao {
+    flex-direction: column; 
+    margin-right: auto;
+    margin-left: auto; 
+    
+}
+
+.apresentacao__botao__link {
+    width: 100%; 
+    margin: 0; 
+}
+
 }
 

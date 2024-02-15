@@ -153,12 +153,12 @@ body{
 
 @media(max-width:1200px){
 body {
-    background-size: cover; /* Corrigir o tamanho do plano de fundo */
-    padding: 0; /* Remover o preenchimento do corpo */
+    background-size: cover; 
+    padding: 0; 
 }
 
 .cabecalho {
-    padding: 10% 0; /* Ajustar o preenchimento do cabeçalho */
+    padding: 10% 0; 
 }
 
 .rodape
@@ -168,10 +168,11 @@ body {
 }
 .cabecalho_menu{
     justify-content: center;
-    margin-left: auto;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .apresentacao {
-    width: 100%; /* Largura total */
+    width: 100%;
     margin-left: auto; 
     align-items: center;
     margin-right: auto;
@@ -180,7 +181,7 @@ body {
     
 }
 .apresentacao2 {
-    width: 100%; /* Largura total */
+    width: 100%; 
     margin-left: 10%; 
     align-items: center;
     margin-right: auto;
@@ -199,13 +200,14 @@ body {
     margin-left: 20%;
     margin-top: 3%;
     justify-content: space-around;
+    gap: 20px;  
     
 }
 
 .apresentacao__conteudo_texto {
     display: flex;
     justify-content:center;
-    flex-direction:column-reverse;
+    flex-direction:column;
     flex-wrap: nowrap; 
     gap: 32px;
     align-items:center;
@@ -216,18 +218,19 @@ body {
 
 .apresentacao__conteudo__texto_1,
 .apresentacao__conteudo__texto_2 {
-    margin-left: 0; /* Remover margem esquerda */
+    margin-left: 0; 
 }
 
 .apresentacao__botao {
-    flex-direction: column; /* Empilhar os botões verticalmente */
-    margin: 3% 0; /* Adicionar margem superior e inferior */
+    flex-direction: column; 
+    margin-right: auto;
+    margin-left: auto; 
     
 }
 
 .apresentacao__botao__link {
-    width: 100%; /* Largura total */
-    margin: 0; /* Remover margem */
+    width: 100%; 
+    margin: 0; 
+}
 }
 
-}

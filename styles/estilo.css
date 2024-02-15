@@ -146,6 +146,8 @@ body{
         font-family: var(--fonte-secundaria);
         font-size: 1.25rem;
         font-weight: 600;
+        position: sticky;
+        bottom: 0;
                
 }
 

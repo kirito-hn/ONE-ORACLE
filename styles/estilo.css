@@ -201,6 +201,9 @@ body{
     width: 100vw;        
     
  }
+ .dados{
+    font-size: 16pt;
+ }
 
 @media(max-width:1200px){
     .body{

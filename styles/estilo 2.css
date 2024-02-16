@@ -1,16 +1,4 @@
 @import 'styles/estilo.css';
-
-.apresentacao2{
-    display: flex;
-    margin-top: -10%;
-    flex-wrap:nowrap;
-    justify-content: space-around;
-    margin-bottom: 10%;
-    font-weight: 600;
-    
-
-}
-
 .sobremim{
     display: flex;
     flex-wrap: wrap;
